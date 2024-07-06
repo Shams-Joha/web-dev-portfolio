@@ -1,0 +1,99 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 300 to 800 */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+/* shared button */
+.btn{
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+    padding: 18px 36px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #d36b09;
+}
+.dark2{
+    color:#474747;
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left 23px top 23px, bottom right;
+}
+
+/*nav styles*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.banner-heading{
+    font-size: 45px;
+    font-weight: 600px;
+    margin: 0px;
+}
+
+.banner-title{
+    font-weight: 700px;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-pp{
+    width: 584px;
+    margin-right: 38px;
+}
+
+.banner-content{
+    max-width: 585px;
+    margin-left: 230px;
+}
