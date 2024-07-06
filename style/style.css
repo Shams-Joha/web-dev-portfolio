@@ -178,3 +178,22 @@ nav ul li {
     margin-top: 130px;
     margin-bottom: 130px;
 }
+/* Resume page design */
+.parent-flex{
+    display: flex;
+    gap:24px;
+}
+
+.center{
+    text-align: center;
+}
+
+/* Footer Page design*/
+.footer{
+    display:flex;
+    padding: 130px 230px;
+    gap:100px;
+}
+.column{
+    width:50%;
+}
