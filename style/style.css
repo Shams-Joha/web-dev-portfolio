@@ -151,3 +151,30 @@ nav ul li {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* skill styles */
+
+.skill-container{
+    display:flex;
+    gap: 24px;
+}
+
+.section-description{
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+}
+.skill{
+    margin: 130px 0;
+
+}
+.skillset{
+    padding: 60px 33px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
